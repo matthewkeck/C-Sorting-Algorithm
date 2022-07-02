@@ -1,0 +1,5 @@
+﻿  SortingAlgorithms2.cpp
+D:\School\sophmore 2022\summer\SortingAlgorithms2\SortingAlgorithms2\SortingAlgorithms2.cpp(153,78): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\School\sophmore 2022\summer\SortingAlgorithms2\SortingAlgorithms2\SortingAlgorithms2.cpp(159,76): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+D:\School\sophmore 2022\summer\SortingAlgorithms2\SortingAlgorithms2\SortingAlgorithms2.cpp(177,76): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+  SortingAlgorithms2.vcxproj -> D:\School\sophmore 2022\summer\SortingAlgorithms2\x64\Debug\SortingAlgorithms2.exe
