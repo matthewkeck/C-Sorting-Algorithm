@@ -117,9 +117,37 @@ void quick_sort(float current_array[], int lower_bound, int upper_bound) {
 
 }
 
-void merge_sort(float current_array[]) {
-    int size_of_array = sizeof(current_array) / sizeof(current_array[0]);
-    
+void merge(float* current_array, int size_of_array, float* left_array, int left_size, float* right_array, int right_size) {
+    int i = 0, j = 0, k = 0;
+
+    while (i < left_size && j < right_size) {
+        if (left_array[i] >= right_array[j]) {
+            current_array[k] = left_array[i];
+            i++;
+        }
+        else {
+            current_array[k] = right_array[j];
+            j++;
+        }
+        k++;
+    }
+
+    while (i < left_size) {
+        current_array[k] = left_array[i];
+        i++;
+        k++;
+    }
+
+    while (j < right_size) {
+        current_array[k] = right_array[j];
+        j++;
+        k++;
+    }
+
+}
+
+void merge_sort(float* current_array,int size_of_array) {
+
     if (size_of_array < 2) {
         return;
     }
@@ -131,26 +159,26 @@ void merge_sort(float current_array[]) {
 
     for (int i = 0; i < mid_index; i++) {
         left_array[i] = current_array[i];
-        cout << left_array[i] << "\n";
     }
-
-    cout << "\n -------------------------------- \n";
 
     for (int i = mid_index; i < size_of_array; i++) {
         right_array[i - mid_index] = current_array[i];
-        cout << right_array[i] << "\n";
     }
 
-    //merge_sort(left_array);
-    //merge_sort(right_array);
+    merge_sort(left_array, mid_index);
+    merge_sort(right_array, size_of_array - mid_index);
 
+    //Merge
+    merge(current_array, size_of_array, left_array, mid_index, right_array, size_of_array - mid_index);
 }
+
+
 
 int main() // prints results of the array and calls sort function
 {
     float temperature[] = { 60.4 , 77.5, 83.1, 89.1, 92.1, 83.2, 72.3, 61.4, 62.4, 60.4, 83.1, // global varable in order to pass the array to functions
                         89.7, 90.1, 80.2, 70.3, 75.5, 77.5, 83.1, 89.1, 92.1, 83.2,
-                        72.3, 61.4, 62.4, 75.5, 83.1, 89.7, 90.1, 80.2, 70.3 };
+                        72.3, 61.4, 62.4, 75.5, 83.1, 89.7, 90.1, 80.2, 70.3, 89.6 };
 
     float* temp_pointer = NULL; // declares pointer and sets it to nothing
     temp_pointer = &temperature[0];// sets the pointer adress to temerature indice 0
@@ -169,7 +197,7 @@ int main() // prints results of the array and calls sort function
     int right = sizeof(temperature) / sizeof(int) - 1;
 
     //quick_sort(temperature, left, right);
-    merge_sort(temperature);
+    merge_sort(temperature, size_of_array);
 
     cout << endl; // prints new line to seperate unsorted from sorted
 
