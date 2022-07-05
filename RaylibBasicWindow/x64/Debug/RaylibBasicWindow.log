@@ -1,0 +1,22 @@
+﻿  RaylibBasicWindow.cpp
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(255,23): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(255,23): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(255,41): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(255,41): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(256,21): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(256,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(256,35): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(256,35): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(271,25): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(271,30): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(271,37): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(271,43): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(273,39): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(277,79): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(278,79): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(301,29): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(301,34): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(301,41): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(301,47): warning C4838: conversion from 'int' to 'unsigned char' requires a narrowing conversion
+C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\RaylibBasicWindow.cpp(303,24): warning C4305: '+=': truncation from 'double' to 'float'
+  RaylibBasicWindow.vcxproj -> C:\Users\matth\OneDrive\other\Documents\GitHub\RaylibBasicWindow\x64\Debug\RaylibBasicWindow.exe
