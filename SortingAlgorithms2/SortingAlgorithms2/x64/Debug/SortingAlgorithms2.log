@@ -1,5 +1,0 @@
-﻿  SortingAlgorithms2.cpp
-C:\Users\matth\OneDrive\other\Documents\GitHub\C-Sorting-Algorithm\SortingAlgorithms2\SortingAlgorithms2\SortingAlgorithms2.cpp(181,84): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\matth\OneDrive\other\Documents\GitHub\C-Sorting-Algorithm\SortingAlgorithms2\SortingAlgorithms2\SortingAlgorithms2.cpp(187,76): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
-C:\Users\matth\OneDrive\other\Documents\GitHub\C-Sorting-Algorithm\SortingAlgorithms2\SortingAlgorithms2\SortingAlgorithms2.cpp(205,76): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
-  SortingAlgorithms2.vcxproj -> C:\Users\matth\OneDrive\other\Documents\GitHub\C-Sorting-Algorithm\SortingAlgorithms2\x64\Debug\SortingAlgorithms2.exe
